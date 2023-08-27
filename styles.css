@@ -95,3 +95,28 @@ ul li a:hover{
     color: rgb(11, 11, 105);
     font-weight: bold;
 }
+
+.image{
+    width:50%;
+    height: 60%;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    border-radius: 100%;
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    left:40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: center 2s ease;
+    border-radius: 100%;
+}
+
+.image:hover{
+     transform: scale(1.3);
+}
+
+ 
