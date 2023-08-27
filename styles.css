@@ -8,7 +8,7 @@
 .hero{
     height:100vh;
     width:100%;
-    background:url(background.jpg);
+    background:url(images/background.jpg);
     background-size: cover;
     height: 100vh;
     position:relative;
@@ -19,13 +19,14 @@
     width:86%;
     display: flex;
     margin:auto;
-    padding: 15px 0;
+    padding: 50px 0;
     align-items: center;
     justify-content: space-between;
 }
 
 .navbar .logo{
-    width:160px;
+    width:90px;
+    height: 60px;
     cursor: pointer;
     margin-top: -3%;
     margin-left: -2%;
@@ -51,5 +52,6 @@ ul li a{
 }
 
 ul li a:hover{
-    color:#1C44BE;
+    color:aliceblue;
 }
+
